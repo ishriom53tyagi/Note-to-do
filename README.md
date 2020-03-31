@@ -18,9 +18,10 @@
 . clone the repository
 
  ``` git clone https://github.com/ishriom53tyagi/Note-to-do.git ```
+ 
 . Install dependencies
 
-```cd Note-to-do
+```cd Note-to-do ```
 
 ``` pip install -r requirements.txt ```
 
