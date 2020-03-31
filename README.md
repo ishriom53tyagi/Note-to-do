@@ -21,7 +21,7 @@
  
 . Install dependencies
 
-```cd Note-to-do ```
+```cd Note_to_do ```
 
 ``` pip install -r requirements.txt ```
 
