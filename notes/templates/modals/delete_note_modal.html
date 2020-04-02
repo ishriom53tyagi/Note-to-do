@@ -17,11 +17,12 @@
         </div>
 
         <!-- Modal footer -->
+    <form method="GET" action="{% url 'delete_single_note' note_detail.id %}">
         <div class="modal-footer">
-            <input type="submit" class="btn btn-primary" data-dismiss="modal" value="Cancel">
-            <button type="button" class="btn btn-danger" name="delete_note"><a href="{% url 'delete_single_note' note_detail.id %}" style="text-decoration: none; color: white">Delete</a></button>
+                <input type="submit" class="btn btn-primary" data-dismiss="modal" value="Cancel">
+                <button type="submit" class="btn btn-danger" >Delete</button>            
         </div>
-
+     </form>  
         </div>
     </div>
 </div>
